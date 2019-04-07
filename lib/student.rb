@@ -66,7 +66,7 @@ class Student
     new_student = self.new(name, grade)
     new_student.save
     new_student
-  end 
+  end
 
   def self.create_table
     sql = <<-SQL
